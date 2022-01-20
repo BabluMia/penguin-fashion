@@ -13,14 +13,57 @@ body{
     --color-2:#363958;
     --color-3:#3E3E3E;
 }
-.header-bg{
-    background-color: #FFFBF0;
-}
-p{
+p , li{
     color: var(--color-3);
 
 }
 .section-title{
     color: var(--color-2);
     font-size: 48px;
+}
+.common-button{
+    outline: none;
+    padding: 10px 26px;
+    background-color: var(--color-1);
+    border: 0;
+    color: white;
+    border: 2px solid var(--color-1);
+    border-radius: 10px;
+    font-weight: bold;
+    width: 160px;
+}
+.common-button:hover{
+    color: var(--color-2);
+    background-color:#d6d2c8 ;
+    border: 2px solid var(--color-1);
+    transition: .4s all ease;
+}
+.common-button img{
+    margin-top: -3px;
+    margin-right: 5px;
+}
+/* header css */
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBF0;
+}
+.logo{
+    width: 291.11px;
+    height: 39.27px;
+}
+.banner{
+    height: calc(100vh - 100px);
+}
+.banner-title h1{
+    font-size: 80px;
+}
+.banner-title:first-child{
+    color: var(--color-1);
+}
+.color2{
+    color: var(--color-2);
+}
+ul li{
+    margin-left: 20px;
 }
