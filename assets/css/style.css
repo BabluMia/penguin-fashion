@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+/* custom class */
+:root{
+    --color-1:#FABE4C;
+    --color-2:#363958;
+    --color-3:#3E3E3E;
+}
+.header-bg{
+    background-color: #FFFBF0;
+}
+p{
+    color: var(--color-3);
+
+}
+.section-title{
+    color: var(--color-2);
+    font-size: 48px;
+}
